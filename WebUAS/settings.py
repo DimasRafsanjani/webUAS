@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'CrudMahasiswa',
+    'CrudDeveloper',
     'crispy_forms'
 ]
 
@@ -56,8 +56,7 @@ ROOT_URLCONF = 'WebUAS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'CrudMahasiswa/members/../CrudMahasiswa/templates']
-        ,
+        'DIRS': [BASE_DIR / 'CrudDeveloper/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
